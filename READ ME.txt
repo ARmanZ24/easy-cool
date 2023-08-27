@@ -1,0 +1,8 @@
+/*This program is coded in java with simple terms. This doesn't follow an efficient way of coding practices and doesn't obey time and space complexity.*/
+
+//Eclipse could be used to run this file. 
+//Simply download this code and paste it in your platform and run it. Tadaaa!! You got it
+//Make sure you do the neccessary changes to this code. for eg: Change the package name in the code file as per your file.
+
+
+That's it for me. Happy Coding.
