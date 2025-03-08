@@ -1,4 +1,4 @@
-#Given: Check the given number is prime number or not
+#Problem: Given is a positive number greater than 1, check if it is a prime number or not
 
 counter=-1 #counter to flag any changes while checking
 userIp=1 #initializing the user value as integer
