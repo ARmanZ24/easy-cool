@@ -1,4 +1,4 @@
-
+#Give: In a given list of positive numbers, find the missing number in within the range (between the min and max in the list) 
 usrList = list(map(int,input("Enter your list of positive non-zero numbers: ").split()))
 usrList.sort() #sorting the user given list using built-in fn
 missingNum=1 #initialize it as int
