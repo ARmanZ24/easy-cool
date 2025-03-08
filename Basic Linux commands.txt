@@ -1,0 +1,161 @@
+### Basic Navigation & File Management Linux Commands (CentOS)
+
+1. pwd – To print current working directory
+   #pwd
+
+2. ls – To list files and directories in the current directory.
+   #ls
+
+3. cd – To change the current directory.
+   #cd /parent_path/child_path/file_or_directory
+
+4. cp – To copy files or directories.
+   #cp source_file destination
+
+5. mv – To move or rename files or directories.
+   #mv old_name new_name
+
+6. rm – To remove files or directories.
+   #rm filename
+
+7. mkdir – TO create a new directory.
+   #mkdir new_directory
+
+8. rmdir – To remove an empty directory.
+   #rmdir directory_name
+
+9. touch – To create an empty file or update the timestamp of an existing file.
+   #touch newfile.txt
+
+10. cat – To display the content of a file.
+    #cat filename
+
+11. more – To view file content one screen at a time.
+    #more filename
+
+12. less – To view file content with the ability to scroll.
+    #less filename
+
+13. echo – To print a line of text or variable to the terminal.
+    #echo "Hello, World!"
+
+14. head – To display the first few lines of a file.
+    #head filename
+
+15. tail – TO display the last few lines of a file.
+    #tail filename
+
+### File Permissions & Ownership
+
+16. chmod – To change file permissions.
+    #chmod 755 file_name
+
+17. chown – To change file ownership.
+    #chown user:group file_name
+
+18. chgrp – To change group ownership of a file.
+    #chgrp group_name file_name
+
+### Searching & Finding Files
+
+19. find – To search for files in a directory hierarchy.
+    #find /path/to/search -name "filename"
+
+20. locate – To find files by name (faster than find).
+    #locate filename
+
+21. which – To show the full path of a command.
+    #which command
+
+22. grep – To search for patterns within files.
+    #grep "search_term" filename
+
+23. updatedb – To update the database used by locate.
+    #sudo updatedb
+
+24. To search for files starting from the root directory.
+    #find / -name filename – 
+
+### System Information
+
+25. hostname – To show or set the system’s hostname.
+    #hostname
+
+26. uname -r – To display the Linux kernel version.
+    #uname -r
+
+27. uptime – To show how long the system has been running.
+    #uptime
+
+28. top – TO display Linux tasks (real-time system monitoring).
+    #top
+
+29. free – To show memory usage.
+    #free
+
+30. df – To display disk space usage.
+    #df -h
+
+31. du – To show disk usage of files and directories.
+    #du -sh /path/to/directory
+
+32. ps – To show running processes.
+    #ps aux
+
+33. lscpu – To display CPU architecture information.
+    #lscpu
+
+34. lshw – To list detailed hardware information.
+    #sudo lshw
+
+35. ifconfig – To display or configure network interfaces.
+    #ifconfig
+
+36. ip a – To display IP address and network interface details.
+    #ip a
+
+### User Management
+
+37. whoami – To show the current logged-in user.
+    #whoami
+
+38. who – To show who is logged in.
+    #who
+
+39. useradd – To add a new user.
+    #sudo useradd username
+
+40. userdel – To delete a user.
+    #sudo userdel username
+
+41. passwd – To change user password.
+    #sudo passwd username
+
+42. groupadd – To add a new group.
+    #sudo groupadd group_name
+
+43. groups – To show the groups a user belongs to.
+    #groups username
+
+44. id – To display user and group information.
+    #id username
+
+### Package Management ( `yum` is for CentOS and few other distros as well)
+
+45. yum install – To install a package.
+    #sudo yum install package_name
+
+46. yum remove – To remove a package.
+    #sudo yum remove package_name
+
+47. yum update – To update all packages.
+    #sudo yum update
+
+48. yum search – To search for a package.
+    #yum search package_name
+
+49. yum list installed – To list installed packages.
+    #yum list installed
+
+50. yum info – To display package details.
+    #yum info package_name
