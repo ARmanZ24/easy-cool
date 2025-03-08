@@ -1,3 +1,5 @@
+#Given: Check the given number is prime number or not
+
 counter=-1 #counter to flag any changes while checking
 userIp=1 #initializing the user value as integer
 
